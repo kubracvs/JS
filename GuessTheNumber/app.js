@@ -14,10 +14,10 @@ document.querySelector('.btn').addEventListener('click',() => {
 
  if(randomNumber > guessNumber){
     alert('Biraz yukarı ☝️')
-    document.querySelector('body').style.backgroundImage ='url(saskın.jpg)'
+    document.querySelector('body').style.backgroundImage ='url(yukarıya.jpg)'
  }else if(randomNumber < guessNumber) {
     alert('Biraz Aşağı 👇')
-    document.querySelector('body').style.backgroundImage ='url(emoji.jpg)'
+    document.querySelector('body').style.backgroundImage ='url(asagıya.jpg)'
     document.querySelector('body').style.backgroundcolor ='url(emoji.jpg)'
  }else {
     alert('🥳 TEBRİKLER 🥳')
