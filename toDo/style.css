@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient( rgb(55, 125, 103),white,rgb(55, 125, 103));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(126, 192, 172);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 100vw;
+    max-width: 700px;
+    min-height: 40vh;
+    border-top-left-radius:120px;
+    border-bottom-right-radius: 120px;
+    position: relative;
+   
+}
+
+.container .box1, .box2 {
+    animation: animate 7s linear infinite;
+
+}
+
+@keyframes animate{
+    0%, 100%
+    {
+        transform: translate(-40px);
+    }
+    50%
+    {
+        transform: translate(40px);
+    }
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, .56) 0px 22px 70px 4px;
+    border-top-left-radius:35px ;
+    border-bottom-right-radius:35px ;
+    position: absolute;
+    bottom:-80px;
+    left:-80px;
+   
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, .56) 0px 22px 70px 4px;
+    border-top-left-radius: 35px ;
+    border-bottom-right-radius: 35px ;
+    position: absolute;
+    right: -80px;
+    top:-80px;
+
+}
+
+h2{
+    text-align: center;
+    margin: 35px;
+}
+
+.todo-add{
+    text-align: center;
+}
+
+#todo-input{
+    width: 450px;
+    padding:7px;
+    border-radius:5px;
+}
+
+#todo-button{
+    padding:7px;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px ;
+}
+
+@media(max-width:300px){
+    
+}
+
+
+
+
+
+
+
+
+
